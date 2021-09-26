@@ -1126,10 +1126,10 @@
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.5.tgz#1001cc5e6a3704b83c236027e77f2f58ea010f40"
   integrity sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==
 
-"@types/node@*", "@types/node@^16.9.1":
-  version "16.9.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.9.1.tgz#0611b37db4246c937feef529ddcc018cf8e35708"
-  integrity sha512-QpLcX9ZSsq3YYUUnD3nFDY8H7wctAhQj/TFKL8Ya8v5fMm3CFXxo8zStsLAl780ltoYoo1WvKUVGBQK+1ifr7g==
+"@types/node@*", "@types/node@^16.10.1":
+  version "16.10.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.10.1.tgz#f3647623199ca920960006b3dccf633ea905f243"
+  integrity sha512-4/Z9DMPKFexZj/Gn3LylFgamNKHm4K3QDi0gz9B26Uk0c8izYf97B5fxfpspMNkWlFupblKM/nV8+NA9Ffvr+w==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -2219,12 +2219,12 @@ compressible@~2.0.16:
   dependencies:
     mime-db ">= 1.43.0 < 2"
 
-compression-webpack-plugin@^8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/compression-webpack-plugin/-/compression-webpack-plugin-8.0.1.tgz#13b34403029760e66007f0bac8cf892a2009a3f4"
-  integrity sha512-VWDXcOgEafQDMFXEnoia0VBXJ+RMw81pmqe/EBiOIBnMfY8pG26eqwIS/ytGpzy1rozydltL0zL6KDH9XNWBxQ==
+compression-webpack-plugin@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/compression-webpack-plugin/-/compression-webpack-plugin-9.0.0.tgz#38b4e18313f5d704c453ab5645e38a5805ba5889"
+  integrity sha512-V2KmQqaUkErPT+ZcUGHa8zWpIw1oTYaC7wjGewJm053GWAoY04GfU5B/NZ/JSz1eFp9MggMdLQpEHe1TJAQY1A==
   dependencies:
-    schema-utils "^3.0.0"
+    schema-utils "^3.1.0"
     serialize-javascript "^6.0.0"
 
 compression@^1.7.4:
