@@ -2,7 +2,7 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "@fontsource/inter": "^4.5.0",
+    "@fontsource/inter": "^4.5.7",
     "@rails/ujs": "^6.1.4",
     "@tailwindcss/aspect-ratio": "^0.2.1",
     "@tailwindcss/forms": "^0.3.3",
@@ -22,7 +22,7 @@
     "@babel/compat-data": "^7.15.0",
     "@types/node": "^16.9.1",
     "@types/webpack-env": "^1.16.2",
-    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.31.0",
     "browser-sync": "^2.27.5",
     "compression-webpack-plugin": "^9.2.0",
