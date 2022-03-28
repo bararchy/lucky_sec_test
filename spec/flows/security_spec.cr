@@ -94,13 +94,13 @@ describe "SecTester" do
       scanner.run_check(
         scan_name: "ref: #{ENV["GITHUB_REF"]?} commit: #{ENV["GITHUB_SHA"]?} run id: #{ENV["GITHUB_RUN_ID"]?}",
         tests: [
-          "sqli",            # Testing for SQL Injection issues (https://docs.neuralegion.com/docs/sql-injection)
-          "jwt",             # Testing JWT usage (https://docs.neuralegion.com/docs/broken-jwt-authentication)
-          "cookie_security", # Making sure the cookies are safe and use `Secure` and `HttpOnly`
-          "xss",             # Checking for Cross Site Scripting attacks (https://docs.neuralegion.com/docs/reflective-cross-site-scripting-rxss)
-          "dom_xss",         # Checking for DOM based XSS (Client side attack)
-          "ssrf",            # Checking for SSRF (https://docs.neuralegion.com/docs/server-side-request-forgery-ssrf)
-          "proto_pollution", # Checking for proto pollution based vulnerabilities (https://docs.neuralegion.com/docs/prototype-pollution)
+          "sqli",                 # Testing for SQL Injection issues (https://docs.neuralegion.com/docs/sql-injection)
+          "jwt",                  # Testing JWT usage (https://docs.neuralegion.com/docs/broken-jwt-authentication)
+          "cookie_security",      # Making sure the cookies are safe and use `Secure` and `HttpOnly`
+          "xss",                  # Checking for Cross Site Scripting attacks (https://docs.neuralegion.com/docs/reflective-cross-site-scripting-rxss)
+          "ssrf",                 # Checking for SSRF (https://docs.neuralegion.com/docs/server-side-request-forgery-ssrf)
+          "proto_pollution",      # Checking for proto pollution based vulnerabilities (https://docs.neuralegion.com/docs/prototype-pollution)
+          "full_path_disclosure", # Checking for full path disclourse on api error (https://docs.neuralegion.com/docs/full-path-disclosure)
         ],
         target: target
       )
