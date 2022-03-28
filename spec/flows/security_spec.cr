@@ -21,19 +21,6 @@ describe "SecTester" do
     end
   end
 
-  it "Testing sign_up page for ALL attacks" do
-    with_cleanup(scanner) do
-      target = scanner.build_target(SignUps::Create) do |t|
-        t.body = "user%3Aemail=aa%40aa.com&user%3Apassword=123456789&user%3Apassword_confirmation=123456789"
-      end
-      scanner.run_check(
-        scan_name: "ref: #{ENV["GITHUB_REF"]?} commit: #{ENV["GITHUB_SHA"]?} run id: #{ENV["GITHUB_RUN_ID"]?}",
-        tests: nil,
-        target: target
-      )
-    end
-  end
-
   # Testing the auth page with Dom XSS attack
   it "Testing sign_in for dom based XSS" do
     with_cleanup(scanner) do
