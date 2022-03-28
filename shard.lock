@@ -74,7 +74,7 @@ shards:
 
   lucky_sec_tester:
     git: https://github.com/luckyframework/lucky_sec_tester.git
-    version: 0.1.0+git.commit.f12059a8f1f83f29c77f509b89c035c2b6d8fa7f
+    version: 0.1.0+git.commit.7612434c877129eef4631522bc8f397c7366c5ad
 
   lucky_task:
     git: https://github.com/luckyframework/lucky_task.git
@@ -94,7 +94,7 @@ shards:
 
   sec_tester:
     git: https://github.com/neuralegion/sec_tester.git
-    version: 1.2.2
+    version: 1.2.3
 
   selenium:
     git: https://github.com/matthewmcgarvey/selenium.cr.git
