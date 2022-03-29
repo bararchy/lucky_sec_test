@@ -41,7 +41,7 @@ describe "SecTester" do
         scan_name: "ref: #{ENV["GITHUB_REF"]?} commit: #{ENV["GITHUB_SHA"]?} run id: #{ENV["GITHUB_RUN_ID"]?}",
         tests: "header_security",
         target: target,
-        severity_threshold: :medium
+        severity_threshold: SecTester::Severity::MEDIUM
       )
     end
   end
@@ -54,7 +54,7 @@ describe "SecTester" do
         scan_name: "ref: #{ENV["GITHUB_REF"]?} commit: #{ENV["GITHUB_SHA"]?} run id: #{ENV["GITHUB_RUN_ID"]?}",
         tests: "cookie_security",
         target: target,
-        severity_threshold: :medium
+        severity_threshold: SecTester::Severity::MEDIUM
       )
     end
   end
@@ -91,7 +91,7 @@ describe "SecTester" do
           "full_path_disclosure", # Checking for full path disclourse on api error (https://docs.neuralegion.com/docs/full-path-disclosure)
         ],
         target: target,
-        severity_threshold: :medium
+        severity_threshold: SecTester::Severity::MEDIUM
       )
     end
   end
