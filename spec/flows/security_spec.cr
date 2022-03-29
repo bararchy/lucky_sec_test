@@ -61,6 +61,7 @@ describe "SecTester" do
 
   # Commented out TODO: Make this test work with proper path, now returns:
   # Invalid URL passed to target: /js/app.js?id=5c5861fa202190088a1a (SecTester::Error)
+  #
   # Testing JS file for 3rd party issues
   # it "Tests /js/app.js for 3rd party issues" do
   #   with_cleanup(scanner) do
