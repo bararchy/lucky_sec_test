@@ -1,5 +1,7 @@
 # ☘️ Lucky Jumpstart
 
+[![Lucky App CI](https://github.com/bararchy/lucky_sec_test/actions/workflows/lucky.yml/badge.svg)](https://github.com/bararchy/lucky_sec_test/actions/workflows/lucky.yml)
+
 This is a template project for web applications using [Lucky](https://luckyframework.org).
 
 ![Lucky Jumpstart CI](https://github.com/stephendolan/lucky_jumpstart/workflows/Lucky%20Jumpstart%20CI/badge.svg)
