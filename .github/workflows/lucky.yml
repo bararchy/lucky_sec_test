@@ -96,9 +96,9 @@ jobs:
 
       - name: Install npm and Repeater
         run: |
-          sudo apt update
-          sudo apt-get install -y libnode-dev node-gyp libssl-dev
-          sudo apt-get install -y nodejs npm
+          # sudo apt update
+          # sudo apt-get install -y libnode-dev node-gyp libssl-dev
+          # sudo apt-get install -y nodejs npm
           sudo npm install -g @neuralegion/nexploit-cli --unsafe-perm=true
 
       - name: Run tests
