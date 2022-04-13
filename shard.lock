@@ -2,7 +2,7 @@ version: 2.0
 shards:
   ameba:
     git: https://github.com/crystal-ameba/ameba.git
-    version: 0.14.3
+    version: 0.14.4
 
   authentic:
     git: https://github.com/luckyframework/authentic.git
@@ -22,7 +22,7 @@ shards:
 
   carbon:
     git: https://github.com/luckyframework/carbon.git
-    version: 0.2.0
+    version: 0.2.1
 
   cry:
     git: https://github.com/luckyframework/cry.git
@@ -38,7 +38,7 @@ shards:
 
   dexter:
     git: https://github.com/luckyframework/dexter.git
-    version: 0.3.3
+    version: 0.3.4
 
   exception_page:
     git: https://github.com/crystal-loot/exception_page.git
@@ -74,7 +74,7 @@ shards:
 
   lucky_sec_tester:
     git: https://github.com/luckyframework/lucky_sec_tester.git
-    version: 0.1.0+git.commit.8c1bdda560f9dd0e5fd6fc14f8303c928c44a367
+    version: 0.1.0+git.commit.a4c3b797ac2389f39836d176d92fd51c8c655f21
 
   lucky_task:
     git: https://github.com/luckyframework/lucky_task.git
@@ -90,11 +90,11 @@ shards:
 
   pulsar:
     git: https://github.com/luckyframework/pulsar.git
-    version: 0.2.2
+    version: 0.2.3
 
   sec_tester:
     git: https://github.com/neuralegion/sec_tester.git
-    version: 1.2.4
+    version: 1.2.11
 
   selenium:
     git: https://github.com/matthewmcgarvey/selenium.cr.git
