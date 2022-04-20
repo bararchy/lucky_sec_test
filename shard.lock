@@ -50,7 +50,7 @@ shards:
 
   har:
     git: https://github.com/neuralegion/har.git
-    version: 1.1.7
+    version: 1.1.8
 
   jwt:
     git: https://github.com/crystal-community/jwt.git
@@ -74,7 +74,7 @@ shards:
 
   lucky_sec_tester:
     git: https://github.com/luckyframework/lucky_sec_tester.git
-    version: 0.1.0+git.commit.a4c3b797ac2389f39836d176d92fd51c8c655f21
+    version: 0.1.0+git.commit.5335f9ac7e1ea1d0800fc8a2c7645226d012b4e8
 
   lucky_task:
     git: https://github.com/luckyframework/lucky_task.git
