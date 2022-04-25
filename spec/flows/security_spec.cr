@@ -16,7 +16,10 @@ describe "SecTester" do
           "osi",
           "xss",
         ],
-        target: target
+        target: target,
+        options: SecTester::Options.new(
+          project_id: "7Yx6ovyMj954WHcLvYyWzo",
+        )
       )
     end
   end
@@ -28,7 +31,10 @@ describe "SecTester" do
       scanner.run_check(
         scan_name: "ref: #{ENV["GITHUB_REF"]?} commit: #{ENV["GITHUB_SHA"]?} run id: #{ENV["GITHUB_RUN_ID"]?}",
         tests: "dom_xss",
-        target: target
+        target: target,
+        options: SecTester::Options.new(
+          project_id: "7Yx6ovyMj954WHcLvYyWzo",
+        )
       )
     end
   end
@@ -41,7 +47,10 @@ describe "SecTester" do
         scan_name: "ref: #{ENV["GITHUB_REF"]?} commit: #{ENV["GITHUB_SHA"]?} run id: #{ENV["GITHUB_RUN_ID"]?}",
         tests: "header_security",
         target: target,
-        severity_threshold: SecTester::Severity::Medium
+        severity_threshold: SecTester::Severity::Medium,
+        options: SecTester::Options.new(
+          project_id: "7Yx6ovyMj954WHcLvYyWzo",
+        )
       )
     end
   end
@@ -54,7 +63,10 @@ describe "SecTester" do
         scan_name: "ref: #{ENV["GITHUB_REF"]?} commit: #{ENV["GITHUB_SHA"]?} run id: #{ENV["GITHUB_RUN_ID"]?}",
         tests: "cookie_security",
         target: target,
-        severity_threshold: SecTester::Severity::Medium
+        severity_threshold: SecTester::Severity::Medium,
+        options: SecTester::Options.new(
+          project_id: "7Yx6ovyMj954WHcLvYyWzo",
+        )
       )
     end
   end
@@ -93,7 +105,10 @@ describe "SecTester" do
           "full_path_disclosure", # Checking for full path disclourse on api error (https://docs.neuralegion.com/docs/full-path-disclosure)
         ],
         target: target,
-        severity_threshold: SecTester::Severity::Medium
+        severity_threshold: SecTester::Severity::Medium,
+        options: SecTester::Options.new(
+          project_id: "7Yx6ovyMj954WHcLvYyWzo",
+        )
       )
     end
   end
